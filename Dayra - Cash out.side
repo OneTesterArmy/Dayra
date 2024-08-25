@@ -54,6 +54,13 @@
       ],
       "value": ""
     }, {
+      "id": "63cc701d-77ea-488f-a5e2-f5b104b1c0b3",
+      "comment": "",
+      "command": "waitForElementPresent",
+      "target": "css=.sc-iQAVnG > span",
+      "targets": [],
+      "value": "2000"
+    }, {
       "id": "c8347882-adf8-4296-ad42-07703788f993",
       "comment": "",
       "command": "click",
