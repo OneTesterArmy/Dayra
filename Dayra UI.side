@@ -1,0 +1,215 @@
+{
+  "id": "595dde36-782e-41a4-a378-8dcddc577620",
+  "version": "2.0",
+  "name": "Dayra UI",
+  "url": "https://dashboard.dayrastaging.com",
+  "tests": [{
+    "id": "89d1afdb-6235-4e17-86b5-640b229e8db0",
+    "name": "Cash-in",
+    "commands": [{
+      "id": "bb7fa96c-21df-4148-9c28-932b44ee9083",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "726dd99a-44e9-484e-b8e8-fcc32e93430c",
+      "comment": "Wait to find element",
+      "command": "waitForElementVisible",
+      "target": "xpath=//div[@id='root']/div/div/div/aside/div/div/ul/li/ul/li[7]/div/span",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "332230e0-6037-4067-b52d-7f678532e14b",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26fd69a7-4d9d-4dcd-8f7c-e126ebfbb0aa",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='root']/div/div/div/aside/div/div/ul/li/ul/li[7]/div/span",
+      "targets": [
+        ["css=.ant-menu-submenu-active .ant-menu-title-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside/div/div/ul/li/ul/li[7]/div/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fin-Ops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d4c4c19f-acec-4b63-b01d-c19e41b0feb1",
+      "comment": "Wait to find element",
+      "command": "waitForElementVisible",
+      "target": "linkText=Cash-Ins",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "999b55f2-1df2-4dc7-a90e-ab54273c223f",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cash-Ins",
+      "targets": [
+        ["linkText=Cash-Ins", "linkText"],
+        ["css=.ant-menu-item-active a", "css:finder"],
+        ["xpath=//ul[@id='rc-menu-uuid-65536-1-fin-ops-popup']/li/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cash-ins')]", "xpath:href"],
+        ["xpath=//li[7]/ul/li/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cash-Ins')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6f83802b-fda0-49ac-a53e-5ce37cef2ae2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-iQAVnG > span",
+      "targets": [
+        ["css=.sc-iQAVnG > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/main/div/div/div/div[2]/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Cash-in')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "cdc6a46a-4c41-4d6e-bfa0-661958804f0b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-items__item:nth-child(2)",
+      "targets": [
+        ["css=.dropdown-items__item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/main/div/div/div/div[2]/div/div/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Client')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4e1b95fb-d21a-4b0b-9a3d-874ad4f5f0bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(2) .form-input",
+      "targets": [
+        ["css=.flex:nth-child(2) .form-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5390947-dff0-4cbe-873f-e8612515e797",
+      "comment": "Wait",
+      "command": "waitForElementVisible",
+      "target": "xpath=/html/body/div[3]/div/div[3]/div/div[2]/form/form/div/div[1]/div/div[1]/div/div[2]/input",
+      "targets": [],
+      "value": "30000"
+    }, {
+      "id": "bab405f2-a8c2-462f-92ef-f0758dfd5e1d",
+      "comment": "",
+      "command": "type",
+      "target": "xpath=/html/body/div[3]/div/div[3]/div/div[2]/form/form/div/div[1]/div/div[1]/div/div[2]/input",
+      "targets": [
+        ["css=.has-value", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "29112118800593"
+    }, {
+      "id": "76e684ad-cf07-459c-893c-2fd7772016b2",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/div/div/div/div[3]/div/div/div",
+      "targets": [
+        ["css=.label-component-selected-trigger-a2de0271-c6a3-457f-8c40-3be99fc86e17", "css:finder"],
+        ["xpath=//form/div/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9034b725-d573-4da9-a1e2-bd0dc914be7c",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.custom-select-option:nth-child(2)",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "8faab00b-614c-40bd-898f-0bf6ec60b200",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-select-option:nth-child(2)",
+      "targets": [
+        ["css=.custom-select-option:nth-child(2)", "css:finder"],
+        ["xpath=//li[@value='4d93df82-5e06-11ed-bd80-a1d45335ac99']", "xpath:attributes"],
+        ["xpath=//div/ul/li[2]", "xpath:position"],
+        ["xpath=//li[contains(.,'Partner X')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2df1ab84-da6f-4f6e-85c4-0fb08d442457",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3:nth-child(1)",
+      "targets": [
+        ["css=.py-3:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/div[6]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf686dbf-17f4-4928-a905-9ac18677763f",
+      "comment": "",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "49de7545-ce61-4fd3-81d9-cba86964caef",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "xpath=//form/div/div/div/div[6]/div/div[2]/input",
+      "targets": [],
+      "value": "5,000"
+    }, {
+      "id": "8af56515-bb38-4374-a732-801424371ad4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.leading-normal",
+      "targets": [
+        ["css=.leading-normal", "css:finder"],
+        ["xpath=//div[10]/div/div/div/div/label/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Click to upload')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "325dfe81-a140-4d41-af40-67f41fb392d0",
+      "comment": "",
+      "command": "type",
+      "target": "css=.hidden:nth-child(2)",
+      "targets": [
+        ["css=.hidden:nth-child(2)", "css:finder"],
+        ["xpath=//input[@type='file']", "xpath:attributes"],
+        ["xpath=//label/input", "xpath:position"]
+      ],
+      "value": "C:\\Users\\itaha\\OneDrive\\Desktop"
+    }, {
+      "id": "fc88b553-924a-4b9e-a6ed-0bfcb11fd123",
+      "comment": "",
+      "command": "click",
+      "target": "css=.px-4",
+      "targets": [
+        ["css=.px-4", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "28f65fb4-6af0-4989-ba7b-5606e58b3e34",
+    "name": "Cash-in Test Cases",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["89d1afdb-6235-4e17-86b5-640b229e8db0"]
+  }],
+  "urls": ["https://dashboard.dayrastaging.com/"],
+  "plugins": []
+}

@@ -1,0 +1,179 @@
+{
+  "id": "1c8670f2-e377-451a-9369-974f3839e1d2",
+  "version": "2.0",
+  "name": "Dayra - Cash out",
+  "url": "https://dashboard.dayrastaging.com",
+  "tests": [{
+    "id": "4f607beb-5628-46a9-bdbc-58483fba7533",
+    "name": "Cash-out",
+    "commands": [{
+      "id": "a89e749d-fc23-4002-b747-b58153bbeb56",
+      "comment": "",
+      "command": "open",
+      "target": "/home",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c96f3741-13a0-479d-88cc-bcb160cf6894",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1552x832",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "dfd93f67-ebcb-4316-9073-ea085fd00eff",
+      "comment": "",
+      "command": "waitForElementVisible",
+      "target": "css=.ant-menu-submenu-active .ant-menu-title-content",
+      "targets": [],
+      "value": "20000"
+    }, {
+      "id": "1fed38ae-cd2d-4f8f-94f4-00825a970e0c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-menu-submenu-active .ant-menu-title-content",
+      "targets": [
+        ["css=.ant-menu-submenu-active .ant-menu-title-content", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/aside/div/div/ul/li/ul/li[7]/div/span", "xpath:idRelative"],
+        ["xpath=//li[7]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Fin-Ops')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "4440ba61-5973-418d-89f1-3afb46176d26",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Cash-Outs",
+      "targets": [
+        ["linkText=Cash-Outs", "linkText"],
+        ["css=.ant-menu-item-active a", "css:finder"],
+        ["xpath=//ul[@id='rc-menu-uuid-52245-1-fin-ops-popup']/li[2]/span/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/cash-outs?tab=pending')]", "xpath:href"],
+        ["xpath=//li[2]/span/a", "xpath:position"],
+        ["xpath=//a[contains(.,'Cash-Outs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c8347882-adf8-4296-ad42-07703788f993",
+      "comment": "",
+      "command": "click",
+      "target": "css=.sc-iQAVnG > span",
+      "targets": [
+        ["css=.sc-iQAVnG > span", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/main/div/div/div/div[2]/div/div/div/div/button/span", "xpath:idRelative"],
+        ["xpath=//button/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Create Cash-out')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1dae961b-7430-4565-9613-f22dcdd3fb31",
+      "comment": "",
+      "command": "click",
+      "target": "css=.dropdown-items__item:nth-child(2)",
+      "targets": [
+        ["css=.dropdown-items__item:nth-child(2)", "css:finder"],
+        ["xpath=//div[@id='root']/div/div/div/div/div/main/div/div/div/div[2]/div/div/div/div/div/button[2]", "xpath:idRelative"],
+        ["xpath=//button[2]", "xpath:position"],
+        ["xpath=//button[contains(.,'Client')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "101744c5-c486-4510-9fef-e573f77d396c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.flex:nth-child(2) .form-input",
+      "targets": [
+        ["css=.flex:nth-child(2) .form-input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d987c9cc-0430-4285-acb8-29d840b15bc2",
+      "comment": "",
+      "command": "type",
+      "target": "css=.has-value",
+      "targets": [
+        ["css=.has-value", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/div/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "29112118800593"
+    }, {
+      "id": "f3c9478d-1740-455d-ba13-ed5f5ea29d21",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//form/div/div/div/div[3]/div/div/div",
+      "targets": [
+        ["css=.label-component-selected-trigger-5c718046-c730-42eb-a0ac-69290b3ebecd", "css:finder"],
+        ["xpath=//form/div/div/div/div[3]/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "922ca1d2-eef0-4291-9db5-b65eaebcf7a6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.custom-select-option:nth-child(1)",
+      "targets": [
+        ["css=.custom-select-option:nth-child(1)", "css:finder"],
+        ["xpath=//li[@value='b7cfa308-aece-11ee-9d72-f35bae661905']", "xpath:attributes"],
+        ["xpath=//div[3]/div/ul/li", "xpath:position"],
+        ["xpath=//li[contains(.,'Taha')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ad4dbf7d-25f6-4a8f-a87a-49370964e172",
+      "comment": "",
+      "command": "click",
+      "target": "css=.py-3:nth-child(1)",
+      "targets": [
+        ["css=.py-3:nth-child(1)", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/div[6]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "615dbdcb-6e3d-4275-9a10-d5d6230194e1",
+      "comment": "",
+      "command": "type",
+      "target": "css=.form-dark-border",
+      "targets": [
+        ["css=.form-dark-border", "css:finder"],
+        ["xpath=//input[@value='20']", "xpath:attributes"],
+        ["xpath=//form/div/div/div/div[6]/div/div[2]/input", "xpath:position"]
+      ],
+      "value": "20"
+    }, {
+      "id": "23bd9f52-1768-4ab7-840c-7bcfa5e18648",
+      "comment": "",
+      "command": "click",
+      "target": "css=.px-4",
+      "targets": [
+        ["css=.px-4", "css:finder"],
+        ["xpath=//button[@type='submit']", "xpath:attributes"],
+        ["xpath=//form/div/div[2]/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e4492a28-2405-4368-8867-16fbfc2b31e0",
+      "comment": "",
+      "command": "click",
+      "target": "css=.ant-notification-notice-message",
+      "targets": [
+        ["css=.ant-notification-notice-message", "css:finder"],
+        ["xpath=//div[4]/div/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "e2624c54-3ad5-4d9b-accc-aed8a9ec12e8",
+    "name": "Dayra Admin - Cash out Test",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["4f607beb-5628-46a9-bdbc-58483fba7533"]
+  }],
+  "urls": ["https://dashboard.dayrastaging.com/"],
+  "plugins": []
+}
